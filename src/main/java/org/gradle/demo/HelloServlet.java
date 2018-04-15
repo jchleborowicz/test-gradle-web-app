@@ -13,7 +13,7 @@ import static org.apache.commons.lang3.StringUtils.defaultString;
 public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        resp.getWriter().println("Hello, World!");
+        resp.getWriter().print("Hello, World!");
     }
 
     @Override
