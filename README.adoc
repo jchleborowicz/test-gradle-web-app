@@ -1,0 +1,9 @@
+= Test Gradle web app project
+
+Project based on tutorial https://guides.gradle.org/building-java-web-applications.
+
+To run web application using gretty plugin execute:
+
+----
+$ ./gradlew appRun
+----
